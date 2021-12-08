@@ -49,6 +49,7 @@
      height:100%;
      overflow:hidden;
  }
+ /**Cambios**/
  #wowslider-container1 .ws_images a{
      width:100%;
      display:block;
@@ -58,11 +59,12 @@
      max-width: none !important;
  }
  #wowslider-container1 .ws_images img{
-     width:100%;
+     width: 100%;
      border:none 0;
      max-width: none;
      padding:0;
  }
+ /**Cambios**/
  #wowslider-container1 a{ 
      text-decoration: none; 
      outline: none; 
