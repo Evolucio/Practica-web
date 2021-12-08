@@ -29,7 +29,7 @@
      overflow: visible;
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: center right;
      /*table-layout:fixed;*/
  }
  #wowslider-container1 .ws_images ul li{
