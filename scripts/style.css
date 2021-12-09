@@ -66,13 +66,13 @@
  }
 
  /**Cambios**/
- @media(min-width:768px){
+ 
     #wowslider-container1 .ws_images a{
         width:100%;
         display:block;
         color:transparent;
     }
- }
+ 
  #wowslider-container1 .ws_images a{
      width:100%;
      display:block;
@@ -81,12 +81,15 @@
  #wowslider-container1 img{
      max-width: none !important;
  }
- #wowslider-container1 .ws_images img{
-     width: 100%;
-     border:none 0;
-     max-width: none;
-     padding:0;
+ @media(min-width:768px){
+    #wowslider-container1 .ws_images img{
+        width: 100%;
+        border:none 0;
+        max-width: none;
+        padding:0;
+    }
  }
+
  /**Cambios**/
  #wowslider-container1 a{ 
      text-decoration: none; 
