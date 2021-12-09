@@ -14,7 +14,7 @@
         margin:0px auto 0px;
         z-index:90;
         border:1px solid #3399FF;
-        text-align:left; /* reset align=center */
+        text-align:right; /* reset align=center */
     }
  
 
@@ -22,7 +22,7 @@
  
 
  
- * html #wowslider-container1{ width: 900px; }
+ * html #wowslider-container1{ width: 1000px; }
  
 
  
