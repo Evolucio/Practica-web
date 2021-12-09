@@ -22,9 +22,9 @@
     
  
 
- @media(min-width:768px){
+ 
     * html #wowslider-container1{ width: 1200px; }
- }
+ 
 
  
 
@@ -41,8 +41,7 @@
     border-spacing:0;
     overflow: visible;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right right;
+   
     /*table-layout:fixed;*/
 }
  
@@ -67,6 +66,13 @@
  }
 
  /**Cambios**/
+ @media(min-width:768px){
+    #wowslider-container1 .ws_images a{
+        width:100%;
+        display:block;
+        color:transparent;
+    }
+ }
  #wowslider-container1 .ws_images a{
      width:100%;
      display:block;
