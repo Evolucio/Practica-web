@@ -81,7 +81,7 @@
  #wowslider-container1 img{
      max-width: none !important;
  }
- @media(min-width:768px){
+ @media(max-width:768px){
     #wowslider-container1 .ws_images img{
         width: 100%;
         border:none 0;
