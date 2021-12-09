@@ -5,7 +5,8 @@
  @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
  
 
- 
+ @media(min-width:768px)
+ {
     #wowslider-container1 { 
         zoom: 0; 
         position: relative; 
@@ -16,6 +17,8 @@
         border:1px solid #3399FF;
         text-align:right; /* reset align=center */
     }
+ }
+    
  
 
     
