@@ -27,25 +27,7 @@
  * html #wowslider-container1{ width: 1000px; }
  
 
- @media(min-width:768px){
-
  
- #wowslider-container1 .ws_images ul{
-     position:relative;
-     width: 10000%; 
-     height:auto;
-     left:0;
-     list-style:none;
-     margin:0;
-     padding:0;
-     border-spacing:0;
-     overflow: visible;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: right right;
-     /*table-layout:fixed;*/
- }
-}
 
 #wowslider-container1 .ws_images ul{
     position:relative;
@@ -62,6 +44,7 @@
     background-position: right right;
     /*table-layout:fixed;*/
 }
+ 
  #wowslider-container1 .ws_images ul li{
      width:1%;
      line-height:0; /*opera*/
