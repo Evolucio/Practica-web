@@ -39,7 +39,7 @@
      background-position: center center;
      /*table-layout:fixed;*/
  }
- @media(min-width:768px){
+ 
 
  
  #wowslider-container1 .ws_images ul li{
@@ -50,7 +50,9 @@
      padding:0 0 0 0 !important;
      margin:0 0 0 0 !important;
  }
-}
+@media(min-width:768px){
+
+
  #wowslider-container1 .ws_images{
      position: relative;
      left:0;
@@ -59,6 +61,7 @@
      height:100%;
      overflow:hidden;
  }
+}
  /**Cambios**/
  #wowslider-container1 .ws_images a{
      width:100%;
