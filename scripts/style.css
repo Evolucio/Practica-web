@@ -4,7 +4,11 @@
  */
  @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
  
-
+.contenedor-slaider{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 95%;
+}
  
     #wowslider-container1 { 
         zoom: 1; 
