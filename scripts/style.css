@@ -10,8 +10,8 @@
  #wowslider-container1 { 
     zoom: 0; 
     position: relative; 
-    max-width:800px;
-    width: 100%;
+    max-width:600px;
+    width: 90%;
     margin:0px auto 0px;
     z-index:95;
     border:1px solid #3399FF;
