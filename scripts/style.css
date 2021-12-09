@@ -3,6 +3,8 @@
  *	template Elegant
  */
  @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
+ @media(min-width:768px){
+
  
     #wowslider-container1 { 
         zoom: 1; 
@@ -15,7 +17,7 @@
         text-align:left; /* reset align=center */
     }
  
- 
+}
     
  
 
@@ -36,7 +38,7 @@
      overflow: visible;
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: right right;
      /*table-layout:fixed;*/
  }
  
