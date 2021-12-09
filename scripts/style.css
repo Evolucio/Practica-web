@@ -16,6 +16,11 @@
     }
  
  
+    
+ @media(min-width:768px)
+ {
+
+ 
  * html #wowslider-container1{ width:1000px }
  #wowslider-container1 .ws_images ul{
      position:relative;
@@ -245,3 +250,4 @@
      width:13px;
      height:7px;
  }
+}
