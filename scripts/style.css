@@ -3,7 +3,7 @@
  *	template Elegant
  */
  @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
- @media(min-width:768px){
+ 
 
  
     #wowslider-container1 { 
@@ -17,7 +17,7 @@
         text-align:left; /* reset align=center */
     }
  
-}
+
     
  
 
