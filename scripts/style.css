@@ -11,7 +11,7 @@
     zoom: 0; 
     position: relative; 
     max-width:800px;
-    width: 95%;
+    width: 100%;
     margin:0px auto 0px;
     z-index:95;
     border:1px solid #3399FF;
@@ -23,7 +23,11 @@
  
 
  
-    * html #wowslider-container1{ width: 1200px; }
+    * html #wowslider-container1{ 
+        width: 1200px; 
+        margin: 0 auto;
+        width: 95%;
+     }
  
 
  
@@ -81,14 +85,14 @@
  #wowslider-container1 img{
      max-width: none !important;
  }
- @media(max-width:768px){
+ 
     #wowslider-container1 .ws_images img{
         width: 100%;
         border:none 0;
         max-width: none;
         padding:0;
     }
- }
+ 
 
  /**Cambios**/
  #wowslider-container1 a{ 
