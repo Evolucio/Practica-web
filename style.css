@@ -30,8 +30,8 @@ body{
 /**Globales**/
 
 .contenedor{
-  max-width: 120rem;
-  width: 90%;
+  max-width: 160rem;
+  width: 95%;
   margin: 0 auto;
 }
 a{
