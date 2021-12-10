@@ -278,7 +278,7 @@ transition: all .3s;
   
 }
 /**Barra de sucursales**/
-@media(min-width:768px){
+
   .barra-sucursal{
     background-color: #16181a;
     text-align: center;
@@ -289,7 +289,7 @@ transition: all .3s;
     margin-top: auto;
     
   }
-}
+
 
 .sucursales{
   text-align: center;
