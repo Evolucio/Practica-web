@@ -278,16 +278,19 @@ transition: all .3s;
   
 }
 /**Barra de sucursales**/
-.barra-sucursal{
-  background-color: #16181a;
-  text-align: center;
-  color: white;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  font-size: 25px;
-  margin-top: auto;
-  
+@media(min-width:768px){
+  .barra-sucursal{
+    background-color: #16181a;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: auto;
+    
+  }
 }
+
 .sucursales{
   text-align: center;
   color: var(--blanco);
