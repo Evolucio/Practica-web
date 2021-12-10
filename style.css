@@ -203,17 +203,12 @@ transition: all .3s;
   gap: 4rem;
   
 }
-.barra-slaider{
-  display:flex;
-  align-items: center;
-  justify-content:center;
- 
-}
-@media(min-width:768px){
+
+@media(max-width:768px){
   .barra-slaider{
     display: flex;
-   align-items:right;
-   gap: 1rem;
+    align-items: center;
+    justify-content:center;
   }
 }
 @media(min-width:768px){

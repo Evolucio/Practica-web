@@ -8,7 +8,7 @@
     
  
  #wowslider-container1 { 
-    zoom: 0; 
+    zoom: 1; 
     position: relative; 
     max-width:600px;
     width: 100%;
@@ -194,7 +194,7 @@
      left:-50%;
  }
  /* default */
- @media(min-width:768px){
+ @media(max-width:768px){
  #wowslider-container1 .ws-title{
      position: absolute;
      bottom:25px;
