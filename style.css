@@ -363,8 +363,17 @@ img{
     display: grid;
     grid-template-columns: 50% 50%;
     padding: auto;
-    height: 34rem;
+    height: 40rem;
     
+  }
+}
+@media (min-width:768px){
+  .barra-video--primera{
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+    padding: auto;
+    height: 34rem;
   }
 }
 
