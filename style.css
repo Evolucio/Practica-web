@@ -20,9 +20,11 @@ body{
   font-size: 1.6rem;
   line-height: 2;
 }
+
 @media  (min-width:768) {
   body{
     font-size: 80%;
+    overflow-x: hidden;
   }
   
 }
