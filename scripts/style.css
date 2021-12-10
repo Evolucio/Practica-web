@@ -25,7 +25,11 @@
  
     * html #wowslider-container1{ width: 1200px; }
  
-
+@media(min-width:768px){
+    #form1{
+        display: flex;
+    }
+}
  
 
  

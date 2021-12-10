@@ -135,13 +135,19 @@ ul li a {
 }
 /*Submenú*/
 
-
-
 .menu > li{
- /* position: relative;*/
- display: inline-block;
- 
+  /* position: relative;*/
+  display: inline-block;
+  
+ }
+@media (max-width:768px){
+  .menu > li{
+    /* position: relative;*/
+    display: block;
+    
+   }
 }
+
 .menu > li > a{
   display: inline-block;
   padding: 15px 20px;
