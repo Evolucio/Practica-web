@@ -206,13 +206,7 @@ transition: all .3s;
   
 }
 
-@media(max-width:768px){
-  .barra-slaider{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-  }
-}
+
 @media(min-width:768px){
   .barra{
     display: flex;
@@ -220,13 +214,7 @@ transition: all .3s;
    gap: 1rem;
   }
 }
-@media(min-width:768px){
-  .sobre-nosotros{
-      display: grid;
-      grid-template-columns: 2fr;
-     
-  }
-}
+
 .barra__imagen{
   margin-right: auto;
   margin-left: auto;
