@@ -19,13 +19,14 @@ body{
   font-family: var(--fuenteParrafos);
   font-size: 1.6rem;
   line-height: 2;
-  overflow-x:hidden;
+  overflow-x: hidden;
+ 
 }
 
 @media  (min-width:768) {
   body{
     font-size: 80%;
-    overflow-x:hidden;
+    
   }
   
 }
@@ -33,7 +34,7 @@ body{
 /**Globales**/
 
 .contenedor{
-  max-width: 220rem;
+  max-width: 1200px;
   width: 95%;
   margin: 0 auto;
 }

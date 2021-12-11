@@ -3,52 +3,28 @@
  *	template Elegant
  */
  @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
- 
-
-    
- 
  #wowslider-container1 { 
-    zoom: 1; 
-    position: relative; 
-    max-width:600px;
-    width: 95%;
-    margin:0px auto 0px;
-    z-index:95;
-    border:1px solid #3399FF;
-    text-align:center; /* reset align=center */
-}
-
-
-    
- 
-
- 
-    * html #wowslider-container1{ width: 1200px; }
- 
-@media(min-width:768px){
-    #form1{
-        display: flex;
-    }
-}
- 
-
- 
-
-#wowslider-container1 .ws_images ul{
-    position:relative;
-    width: 90%; 
-    height:auto;
-    left:0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    border-spacing:0;
-    overflow: visible;
-    background-size: cover;
-   
-    /*table-layout:fixed;*/
-}
- 
+     zoom: 1; 
+     position: relative; 
+     max-width:600px;
+     margin:0px auto 0px;
+     z-index:90;
+     border:1px solid #3399FF;
+     text-align:left; /* reset align=center */
+ }
+ * html #wowslider-container1{ width:1000px }
+ #wowslider-container1 .ws_images ul{
+     position:relative;
+     width: 10000%; 
+     height:auto;
+     left:0;
+     list-style:none;
+     margin:0;
+     padding:0;
+     border-spacing:0;
+     overflow: visible;
+     /*table-layout:fixed;*/
+ }
  #wowslider-container1 .ws_images ul li{
      width:1%;
      line-height:0; /*opera*/
@@ -57,9 +33,7 @@
      padding:0 0 0 0 !important;
      margin:0 0 0 0 !important;
  }
-
-
-
+ 
  #wowslider-container1 .ws_images{
      position: relative;
      left:0;
@@ -68,15 +42,6 @@
      height:100%;
      overflow:hidden;
  }
-
- /**Cambios**/
- 
-    #wowslider-container1 .ws_images a{
-        width:100%;
-        display:block;
-        color:transparent;
-    }
- 
  #wowslider-container1 .ws_images a{
      width:100%;
      display:block;
@@ -85,16 +50,12 @@
  #wowslider-container1 img{
      max-width: none !important;
  }
- 
-    #wowslider-container1 .ws_images img{
-        width: 100%;
-        border:none 0;
-        max-width: none;
-        padding:0;
-    }
- 
-
- /**Cambios**/
+ #wowslider-container1 .ws_images img{
+     width:100%;
+     border:none 0;
+     max-width: none;
+     padding:0;
+ }
  #wowslider-container1 a{ 
      text-decoration: none; 
      outline: none; 
@@ -198,7 +159,6 @@
      left:-50%;
  }
  /* default */
- @media(max-width:768px){
  #wowslider-container1 .ws-title{
      position: absolute;
      bottom:25px;
@@ -215,7 +175,7 @@
      border-radius:0;
      opacity:0.8;
      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);	
- }
+     
  }
  #wowslider-container1 .ws-title div{
      padding-top:5px;
