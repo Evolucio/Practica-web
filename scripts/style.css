@@ -3,28 +3,34 @@
  *	template Elegant
  */
  @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
+ 
  #wowslider-container1 { 
-     zoom: 1; 
-     position: relative; 
-     max-width:600px;
-     margin:0px auto 0px;
-     z-index:90;
-     border:1px solid #3399FF;
-     text-align:left; /* reset align=center */
- }
- * html #wowslider-container1{ width:1000px }
- #wowslider-container1 .ws_images ul{
-     position:relative;
-     width: 10000%; 
-     height:auto;
-     left:0;
-     list-style:none;
-     margin:0;
-     padding:0;
-     border-spacing:0;
-     overflow: visible;
-     /*table-layout:fixed;*/
- }
+    zoom: 1; 
+    position: relative; 
+    max-width:600px;
+    margin:0px auto 0px;
+    z-index:90;
+    border:1px solid #3399FF;
+    text-align:left; /* reset align=center */
+}
+ 
+ 
+    * html #wowslider-container1{ width:1000px }
+
+    #wowslider-container1 .ws_images ul{
+        position:relative;
+        width: 10000%; 
+        height:auto;
+        left:0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        border-spacing:0;
+        overflow: visible;
+        /*table-layout:fixed;*/
+    }
+
+
  #wowslider-container1 .ws_images ul li{
      width:1%;
      line-height:0; /*opera*/
@@ -47,9 +53,12 @@
      display:block;
      color:transparent;
  }
- #wowslider-container1 img{
-     max-width: none !important;
- }
+ 
+ @media(min-width:768px){
+    #wowslider-container1 img{
+        max-width: none !important;
+    }
+}
  #wowslider-container1 .ws_images img{
      width:100%;
      border:none 0;
@@ -93,9 +102,12 @@
      position:relative;
      color:transparent;
  }
- #wowslider-container1 .ws_bullets a.ws_selbull, #wowslider-container1 .ws_bullets a:hover{
-     background-position: 0 100%;
- }
+ 
+    #wowslider-container1 .ws_bullets a.ws_selbull, #wowslider-container1 .ws_bullets a:hover{
+        background-position: 0 100%;
+    }
+ 
+ 
  #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
      position:absolute;
      display:none;

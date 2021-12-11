@@ -19,25 +19,27 @@ body{
   font-family: var(--fuenteParrafos);
   font-size: 1.6rem;
   line-height: 2;
-  overflow-x: hidden;
+ 
  
 }
 
-@media  (min-width:768) {
+@media  (max-width:768) {
   body{
     font-size: 80%;
-    overflow-x: hidden;
+    
   }
   
 }
 
 /**Globales**/
-
-.contenedor{
-  max-width: 1200px;
-  width: 95%;
-  margin: 0 auto;
+@media(max-width:768px){
+  .contenedor{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  }
 }
+
 a{
   text-decoration: none;
 }
