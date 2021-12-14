@@ -605,7 +605,191 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
         transform: translate3d(calc(-100% * 5),0,0);
     }
 }
+
+
+/**Aquí inicia la página Torneos**/
                                           
+
+.blog-torneos{
+  background-image: url(img/ujkuj.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20rem;
+  padding: 1rem;
+  
+}
+
+.entrada__torneos{
+  position: relative;
+  background: #dcdde4;
+  width: 30rem;
+  height: 43rem;
+  
+}
+.entrada__imagen-torneos{
+  position: absolute;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 3rem;
+  padding-bottom: 4rem;
+}
+.entrada__torneos-texto{
+  text-align: center;
+  color:red;
+  border: 2px solid var(--blanco);
+  height: 3rem;
+  padding-bottom: 4px;
+  font-family:'Courier New';
+  font-size: 2rem;
+  font-weight: 700;
+}
+.entrada__torneos-heading{
+  padding-top: 1px;;
+}
+
+.entrada__torneos-informacion{
+  text-align: center;
+  color:red;
+  font-family:'Courier New';
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 18rem;
+  margin-left: -8rem;
+  margin-right: 0;
+  width: 37rem;
+ 
+}
+.entrada__torneos-fechas
+.cursos{
+  line-height: 1;
+  padding-bottom: 3rem;
+}
+.entrada__torneos-informacion h4{
+  font-size: 1rem;
+  color: red;
+}
+.widget-curso__label{
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.entrada__torneos-texto-enlaces{
+  text-align: center;
+  color:red;
+  height: 3rem;
+  padding:1px 3px;
+  font-family:'Courier New';
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: -2rem;
+}
+.torneos{
+  line-height: 0%;
+ margin-left: 0 auto;
+}
+
+.widget-curso__label-primera{
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 1em;
+  padding-top: 5px;
+  letter-spacing: 1pt;
+  text-indent: 2pt;  
+}
+.widget-curso__label-segunda{
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-right: 1rem;
+  text-indent: 2pt;  
+}
+.widget-curso__label-tercera{
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  letter-spacing: 1pt; 
+  text-indent: 2pt;        /* para sangrias */ 
+  
+}  
+.storneo-parrafos{
+  line-height: 0ex;
+}
+.widget-curso__info{
+  font-weight:bolder;
+  color: #000000;
+}
+.torneos-ligas{
+  padding-top: -5rem;
+}
+.entrada__torneos-texto-resultados{
+  font-size: 1.5rem;
+  color: red;
+  margin-top: -4rem;
+  text-align: center;
+ 
+}
+.torneos-ligas{
+  margin-top: -7rem;
+}
+li a{
+  text-indent: 1pt;
+}
+.entrada__torneos-texto-informacion{
+  text-align: center;
+  color:red;
+ font-size: 1.5rem;
+ 
+}
+.entrada__torneos-fechas{
+  padding-top: 1rem;
+}
+.storneo-parrafos-fechas .separacion{
+  letter-spacing: 8pt;
+  color: darkred;
+  font-weight: bolder;
+}
+.storneo-parrafos-fechas p{
+ 
+  color: darkred;
+  font-weight: bolder;
+}
+.entrada__torneos-fechas{
+  
+  color:red;
+  font-family:'Courier New';
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: -7rem;
+  margin-left: -5rem;
+  margin-right: 0;
+  width: 37rem;
+  word-spacing: 2pt;
+}
+.torneos-fechas{
+  margin-top:-4rem;
+  
+}
+.torneos-fechas a{
+  color: blue;
+  justify-content: center;
+  
+}
+@media(min-width:768px){
+  .contenedor-fechas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
 
 
 
