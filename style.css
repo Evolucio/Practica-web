@@ -1,7 +1,7 @@
 :root{
   --fuenteHeading: 'PT sans', sans-serif;
   --fuenteParrafos: 'Roboto Sans', sans-serif;
-
+  --fuenteLigas:'Tangerine', serif;
   --primario:hsl(17, 33%, 35%);
   --blanco:#FFFFFF;
   --negro:#000000;
