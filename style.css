@@ -611,7 +611,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 
 /**Aqui empieza las fechas de torneos**/
 
-@media(min-width:769px){
+@media(min-width:768px){
   .cuatro-columnas{
     display: flex;
     justify-content: space-between;
