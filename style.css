@@ -19,20 +19,26 @@ body{
   font-family: var(--fuenteParrafos);
   font-size: 1.6rem;
   line-height: 2;
+ 
+ 
 }
-@media  (min-width:768) {
+
+@media  (max-width:768) {
   body{
     font-size: 80%;
+    
   }
   
 }
 
 /**Globales**/
+@media(max-width:768px){
   .contenedor{
-    max-width: 160rem;
+    max-width: 1200px;
     width: 95%;
     margin: 0 auto;
   }
+}
 
 a{
   text-decoration: none;
@@ -133,13 +139,19 @@ ul li a {
 }
 /*Submenú*/
 
-
-
 .menu > li{
- /* position: relative;*/
- display: inline-block;
- 
+  /* position: relative;*/
+  display: inline-block;
+  
+ }
+@media (max-width:768px){
+  .menu > li{
+    /* position: relative;*/
+    display: block;
+    
+   }
 }
+
 .menu > li > a{
   display: inline-block;
   padding: 15px 20px;
@@ -203,6 +215,8 @@ transition: all .3s;
   gap: 4rem;
   
 }
+
+
 @media(min-width:768px){
   .barra{
     display: flex;
@@ -262,16 +276,19 @@ transition: all .3s;
   
 }
 /**Barra de sucursales**/
-.barra-sucursal{
-  background-color: #16181a;
-  text-align: center;
-  color: white;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  font-size: 25px;
-  margin-top: auto;
-  
-}
+
+  .barra-sucursal{
+    background-color: #16181a;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: auto;
+    
+  }
+
+
 .sucursales{
   text-align: center;
   color: var(--blanco);
@@ -349,16 +366,24 @@ img{
     display: grid;
     grid-template-columns: 50% 50%;
     padding: auto;
-    height: 34rem;
+    height: 40rem;
     
+  }
+}
+@media (min-width:768px){
+  .barra-video--primera{
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+    padding: auto;
+    height: 34rem;
   }
 }
 
 .barra-video video{
     float: left;
     padding: 1px;
-    width: 95%;
-    height: 31rem;
+    width: 90%;
     margin-top: 20px;
     margin-left: 10px;
     background-color:#000000;
@@ -404,17 +429,12 @@ img{
 }
 @media(min-width:768px){
   .entrada__imagen {
-    padding-left: 15rem;
-    
+    margin-left: 6rem;
+    margin-right: 0;
   }
   
 }
-.entrada__imagen img{
-  max-width: 100%;
- 
-  margin: 0 auto;
- 
-}
+
 /**Aqui termina el main**/
 
 
@@ -457,8 +477,7 @@ img{
 /**Aqui termina el mapa de navegación**/
 
 
-
-/**Aqui inicia el wodslider**/
+/**Aqui inicia el wodslaider**/
 @media(max-width:768px)
 {
     .container-all{
@@ -588,9 +607,6 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 }
 
 
-/**Aqui termina el wodslider**/
-
-
 
 
 /**Aqui empieza las fechas de torneos**/
@@ -638,11 +654,11 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
   }
 
 
-p{
+.entrada__ligas p{
   text-align: center;
   line-height: 0px;;
   padding-left: 2rem;
-  ;
+  
 }
 
 .entrada__ligas-informacion1{
