@@ -603,7 +603,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
   }
   .entrada__ligas{
     flex: 00 calc(25%-1rem);
-    background-color: darkgrey;
+    background-color: rgb(187, 184, 184);
     height: 55rem;
   }
 }
