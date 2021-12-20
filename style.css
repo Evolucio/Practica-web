@@ -621,6 +621,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     flex: 00 calc(25%-1rem);
     background-color: rgb(187, 184, 184);
     height: 55rem;
+    border-bottom: 5px solid rgb(17, 17, 17);
   }
 }
 
