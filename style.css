@@ -33,7 +33,7 @@ body{
     width: 95%;
     margin: 0 auto;
   }
-}
+
 a{
   text-decoration: none;
 }
@@ -455,10 +455,10 @@ img{
   margin-top: 4rem;
 }
 /**Aqui termina el mapa de navegación**/
-/**Aqui termina el mapa de navegación**/
 
 
 
+/**Aqui inicia el wodslider**/
 @media(max-width:768px)
 {
     .container-all{
@@ -588,13 +588,22 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 }
 
 
-/**Aquí inicia la página Torneos**/
-               /**Aqui inicia la pagina Torneos**/               
+/**Aqui termina el wodslider**/
 
 
+/**Aqui empieza la página de torneos**/
+
+@media screen and (min-width:768px){
+  .contenido-principal-torneos{
+    display: grid;
+          grid-template-columns: repeat(5,1fr);
+          gap: 0rem;
+          
+  }
+}
+/**Aqui termina la página de torneos**/
 
 /**Aqui empieza las fechas de torneos**/
-
 @media screen and (min-width:768px){
   .contenido-principal-torneos{
     display: grid;
@@ -628,15 +637,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 }.entrada__imagen{
   margin: 0 auto;
 }
-.entrada__imagen img{
- 
- padding: 2rem;
- padding-right:4rem;
- padding-left: 2rem;
- height: 20rem;
- max-width: 100%;
- 
-}
+
 
   .entrada__fechas{
     position:relative;
@@ -708,9 +709,9 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
  
 }
 .container .default{
-  margin: 0 auto;
- padding-right:2rem;
- padding-left: 2rem;
+margin: 0 auto;
+ padding-right: 0;
+ padding-left: 0;
  height: 2rem;
  max-width: 100%;
 
@@ -721,6 +722,6 @@ caption h3{
   font-size: 1.5rem;
 }
 .default td{
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   color: darkcyan;
 }
