@@ -621,7 +621,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
   .entrada__ligas{
     flex: 00 calc(25%-1rem);
     background-color: rgb(187, 184, 184);
-    height: 55rem;
+    height: 57rem;
     border-bottom: 5px solid rgb(17, 17, 17);
   }
 }
@@ -634,7 +634,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
   font-family: var(--fuenteLigas);
 }
 .entrada__ligas h3{
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   margin: 0% auto;
   color: brown;
@@ -649,7 +649,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 }
 
   .default{
-    margin-top: 1rem;
+    margin-top: 0 auto;
     word-spacing: 3pt;
     width: 30rem;
     margin-left: 2rem;
@@ -685,12 +685,13 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
   font-size: 3rem;
   font-weight: bold;
 }
-td{
+td a{
   line-height: 15pt;
   font-family: var(--fuenteLigas);
   font-size: 3rem;
   color: darkcyan;
   font-weight: bolder;
+  margin: auto;
 }
 caption{
   font-family: var(--fuenteLigas);
