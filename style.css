@@ -704,33 +704,57 @@ caption{
 
 /**Aqui inicia la página nosotros**/
 @media(min-width:768px){
-  .contenido-nosotros{
+  .blog-nosotros1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
+  
   }
 }
 
 .entrada__nosotros{
   padding-top: 3rem;
 }
+
 .imagen-nosotros1{
   background-image: url(img/Imagen3-350x350.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   margin-top: 2rem;
-  height: 50rem;
-  width: 100%;
+  height: 40rem; 
+  max-width: 100%;
  
 }
 .imagen-nosotros2{
   background-image: url(img/Imagen4-350x350.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   margin-top: 2rem;
-  height: 50rem;
-  width: 100%;
+  height: 40rem; 
+  max-width: 100%;
  
+}
+
+.imagen-nosotros3{
+  background-image: url(img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 2rem;
+  height: 40rem; 
+  max-width: 100%;
+ 
+}
+.imagen-nosotros4{
+  background-image: url(img/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 2rem;
+  max-width: 100%;
+  height: 40rem; 
 }
 .heading-nosotros1{
   text-align: center;
