@@ -856,3 +856,28 @@ caption{
 
 
 /**Quí termina la página menú**/
+
+
+
+/**Aquí inicia la página academia**/
+@media(min-width:768px){
+  .blog-academia1{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+  }
+ 
+}
+.lista-academia{
+  list-style-type: "🔔 ";
+}
+.lista-academia li{
+  display: block;
+  
+}
+
+.entrada__academia{
+  margin-left: 2rem;
+  display: list-item;   
+}
+
+/**Aquí termina la página academia**/
