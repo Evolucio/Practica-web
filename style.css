@@ -785,74 +785,17 @@ caption{
 /**Aqui termina la página nosotros**/
 
 /**Aquí inicia la página menú**/
-@media(min-width:768px){
+@media screen and (min-width:768px){
   .blog-menu1{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:50% 50%;
     gap: 0rem;
   
   }
-}
 
-.imagen-menu1{
-  background-image: url(img/IMG-20210915-WA0015.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin-top: 2rem;
-  height: 100rem; 
-  max-width: 100%;
- 
 }
-.imagen-menu2{
-  background-image: url(img/IMG-20210915-WA0017.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin-top: 2rem;
-  height: 100rem; 
-  max-width: 100%;
- 
-}
-.imagen-menu3{
-  background-image: url(img/IMG-20210915-WA0012.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:  center;
-  margin-top: 2rem;
-  height: 100rem; 
-  max-width: 100%;
- 
-}
-.imagen-menu4{
-  background-image: url(img/IMG-20210915-WA0014.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:  center;
-  margin-top: 2rem;
-  height: 100rem; 
-  max-width: 100%;
- 
-}
-.imagen-menu5{
-  background-image: url(img/IMG-20210915-WA0016.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:  center;
-  margin-top: 2rem;
-  height: 100rem; 
-  max-width: 100%;
- 
-}
-.imagen-menu6{
-  background-image: url(img/IMG-20210915-WA0017.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:  center;
-  margin-top: 2rem;
-  height: 100rem; 
-  max-width: 100%;
- 
+.imagen-menu img{
+  width: 100%;
 }
 
 
