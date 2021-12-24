@@ -830,8 +830,8 @@ caption{
 /**Aquí inicia el formulario**/
 
 .formulario{
-  background-color: gray;
-  width: min(70rem,100%);
+  background-color:grey;
+  width: min(60rem,100%);
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -847,6 +847,7 @@ caption{
   font-weight: bold;
   margin-bottom: 2rem;
 }
+
 .campo{
   margin-bottom: 1rem;
 }
@@ -859,58 +860,54 @@ caption{
 .input-text{
   width: 100%;
   border: none;
-  padding: .5rem;
+  padding: 1.5rem;
   border-radius: .5rem;
 }
 .w-sm-100{
   width: 100%;
-  
+
 }
 .alinear-derecha{
   justify-content: flex-end;
-  margin-top: 1rem;
 }
-.campo textarea{
-  height: 10rem;
-
+.flex{
+  display: flex;
 }
-.contenedor-campo{
+.campo  textarea{
+  height: 20rem;
+}
+.contenedor-campos{
   display: grid;
 }
 @media(min-width:768px){
   .contenedor-campos{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 1rem;
-    grid-template-rows:  auto auto 7rem;
+      display: grid;
+      grid-template-columns:50% 50%;
+      column-gap: 1rem;
+      grid-template-rows:auto auto 23rem ;
+
   }
 }
 .campo:nth-child(3),
 .campo:nth-child(4),
-.campo:nth-child(5)
-
-
-{
+.campo:nth-child(5),
+.campo:nth-child(6){
   grid-column: 1/5;
-  width: 90%;
-  
 }
-.campo:nth-child(1),
-.campo:nth-child(2){
-  width: 85%;
+.footer p{
+  text-align: center;
 }
 .boton{
- width: 10rem;
- margin-top: 1rem;
- margin-left: 45rem;
- font-family: var(--fuenteLigas);
- text-transform: uppercase;
-  color:white;
-  font-size: 15px;
-  border-radius: 2px;
-  background-color:grey;
-  padding: 1px 3px;
+  background-color: rgb(92, 64, 64);
+  color: var(--blanco);
+  text-decoration:none;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
   font-weight: bold;
-  border: solid 5px var(--blanco);
+  width: 90%;
+  text-align: center;
+  border: none;
 }
-/**Aquí termina el formulario**/
