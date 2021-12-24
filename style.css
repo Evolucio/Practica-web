@@ -267,7 +267,7 @@ transition: all .3s;
 .boton__promociones--segunda{
   
   text-decoration: none;
-  color: white;
+  color:white;
   font-size: 15px;
   border-radius: 2px;
   background-color: rgb(0 0 0 70%);
@@ -825,3 +825,92 @@ caption{
 }
 
 /**Aquí termina la página academia**/
+
+
+/**Aquí inicia el formulario**/
+
+.formulario{
+  background-color: gray;
+  width: min(70rem,100%);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.formulario fieldset{
+  border: none;
+}
+.formulario legend{
+  color: var(--primario);
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.campo{
+  margin-bottom: 1rem;
+}
+.campo label{
+  color: var(--blanco);
+  font-weight: bold;
+  margin-bottom: .5rem;
+  display: block;
+}
+.input-text{
+  width: 100%;
+  border: none;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+.w-sm-100{
+  width: 100%;
+  
+}
+.alinear-derecha{
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.campo textarea{
+  height: 10rem;
+
+}
+.contenedor-campo{
+  display: grid;
+}
+@media(min-width:768px){
+  .contenedor-campos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1rem;
+    grid-template-rows:  auto auto 7rem;
+  }
+}
+.campo:nth-child(3),
+.campo:nth-child(4),
+.campo:nth-child(5),
+.campo:nth-child(6),
+.campo:nth-child(7)
+{
+  grid-column: 1/6;
+  width: 90%;
+  
+}
+.campo:nth-child(1),
+.campo:nth-child(2){
+  width: 85%;
+}
+.boton{
+ width: 10rem;
+ margin-top: 1rem;
+ margin-left: 45rem;
+ font-family: var(--fuenteLigas);
+ text-transform: uppercase;
+  color:white;
+  font-size: 15px;
+  border-radius: 2px;
+  background-color:grey;
+  padding: 1px 3px;
+  font-weight: bold;
+  border: solid 5px var(--blanco);
+}
+/**Aquí termina el formulario**/
