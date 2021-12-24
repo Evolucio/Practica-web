@@ -911,3 +911,18 @@ caption{
   text-align: center;
   border: none;
 }
+
+/**Aqui inicia la página contacto**/
+
+
+.contenedor-contacto {
+           background-attachment: fixed; 
+           background-image: url(img/IlusionBowl.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center center;
+           height: 60rem;
+           
+           
+        }
+        
