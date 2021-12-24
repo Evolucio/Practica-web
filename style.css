@@ -887,11 +887,11 @@ caption{
 }
 .campo:nth-child(3),
 .campo:nth-child(4),
-.campo:nth-child(5),
-.campo:nth-child(6),
-.campo:nth-child(7)
+.campo:nth-child(5)
+
+
 {
-  grid-column: 1/6;
+  grid-column: 1/5;
   width: 90%;
   
 }
