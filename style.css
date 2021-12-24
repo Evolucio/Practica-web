@@ -789,7 +789,7 @@ caption{
   .blog-menu1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    gap: 0rem;
   
   }
 }
@@ -799,7 +799,7 @@ caption{
   background-size: cover;
   background-position: center center;
   margin-top: 2rem;
-  height: 80rem; 
+  height: 100rem; 
   max-width: 100%;
  
 }
@@ -809,7 +809,7 @@ caption{
   background-size: cover;
   background-position: center center;
   margin-top: 2rem;
-  height: 80rem; 
+  height: 100rem; 
   max-width: 100%;
  
 }
@@ -819,7 +819,7 @@ caption{
   background-size: cover;
   background-position: center center;
   margin-top: 2rem;
-  height: 80rem; 
+  height: 100rem; 
   max-width: 100%;
  
 }
@@ -829,7 +829,7 @@ caption{
   background-size: cover;
   background-position: center center;
   margin-top: 2rem;
-  height: 80rem; 
+  height: 100rem; 
   max-width: 100%;
  
 }
@@ -839,7 +839,7 @@ caption{
   background-size: cover;
   background-position: center center;
   margin-top: 2rem;
-  height: 80rem; 
+  height: 100rem; 
   max-width: 100%;
  
 }
@@ -849,7 +849,7 @@ caption{
   background-size: cover;
   background-position: center center;
   margin-top: 2rem;
-  height: 80rem; 
+  height: 100rem; 
   max-width: 100%;
  
 }
